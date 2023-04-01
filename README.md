@@ -1,1 +1,1 @@
-# VirtualMachine with Type Script and 23 the same opcodes as EVM
+# VirtualMachine with Type Script and 23 opcodes. The same opcodes as EVM
