@@ -6,7 +6,8 @@ const _op = (code: number, name: string, nargs: number = 0) => ({
 
 export const operations = [
   _op(0x00, "HALT"),
-
+  _op(0x50, "POP"), //80 en decimal
+  _op(0x60, "PUSH", 1), //96 en decimal
 
   _op(0x01, "ADD"),
   _op(0x02, "MUL"),
@@ -21,9 +22,6 @@ export const operations = [
   _op(0x17, "OR"),
   _op(0x18, "XOR"),
   _op(0x19, "NOT"), 
-  
-  _op(0x50, "POP"), //80 en decimal
-  _op(0x60, "PUSH", 1), //96 en decimal
 
   _op(0x56, "JUMP"), //86 en decimal
   _op(0x57, "JUMPI"), //87 en decimal
