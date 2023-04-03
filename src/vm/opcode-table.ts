@@ -10,7 +10,7 @@ export const operations = [
   _op(0x60, "PUSH", 1), //96 en decimal
 
   _op(0x01, "ADD"),
-  _op(0x02, "MUL"),
+  _op(0x02, "MUL"),  // 2 en decimal
   _op(0x03, "SUB"),
   _op(0x04, "DIV"),
   _op(0x05, "MOD"),
@@ -19,7 +19,7 @@ export const operations = [
   _op(0x11, "GT"),
   _op(0x14, "EQ"),  //20 en decimal
   _op(0x16, "AND"),
-  _op(0x17, "OR"),
+  _op(0x17, "OR"),   // 23 en decimal
   _op(0x18, "XOR"),
   _op(0x19, "NOT"), 
 

@@ -87,8 +87,11 @@ prime:
 `;
 
 export default [
+  { name: "Text Major", prog: testMayor },
+  { name: "Text Mod", prog: testMod },
   { name: "Test XOR", prog: testXor },
   { name: "Text IF 1", prog: testIf1 },
   { name: "Text Loop 1", prog: testLoop1 },
   { name: "Is Prime", prog: isPrime },
+
 ];
